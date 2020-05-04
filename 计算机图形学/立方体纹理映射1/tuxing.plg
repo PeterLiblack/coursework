@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: tuxing - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP1CC1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\tuxing\2.cpp"
+]
+Creating command line "cl.exe @C:\Users\Administrator\AppData\Local\Temp\RSP1CC1.tmp" 
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP1CD2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/tuxing.pdb" /debug /machine:I386 /out:"Debug/tuxing.exe" /pdbtype:sept 
+.\Debug\tuxing.obj
+.\Debug\StdAfx.obj
+.\Debug\MainFrm.obj
+.\Debug\tuxingDoc.obj
+.\Debug\tuxingView.obj
+.\Debug\tuxing.res
+.\Debug\2.obj
+]
+Creating command line "link.exe @C:\Users\Administrator\AppData\Local\Temp\RSP1CD2.tmp"
+<h3>Output Window</h3>
+Compiling...
+2.cpp
+e:\tuxing\2.cpp(234) : warning C4305: '+=' : truncation from 'const double' to 'float'
+e:\tuxing\2.cpp(235) : warning C4305: '+=' : truncation from 'const double' to 'float'
+e:\tuxing\2.cpp(236) : warning C4305: '+=' : truncation from 'const double' to 'float'
+Linking...
+
+
+
+<h3>Results</h3>
+tuxing.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
