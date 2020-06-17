@@ -1,0 +1,24 @@
+﻿生成启动时间为 2020/6/15 11:10:52。
+     1>项目“G:\vs\地铁\Project1\Project1\Project1.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         G:\vs\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\Project1.tlog\\" /Fd".\Debug\Project1.tlog\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Subway.c test.c
+         test.c
+     1>g:\vs\地铁\project1\project1\subway.h(11): warning C4005: “INT_MAX”: 宏重定义
+                 g:\vs\vs2013\vc\include\limits.h(40) : 参见“INT_MAX”的前一个定义
+         Subway.c
+     1>g:\vs\地铁\project1\project1\subway.h(11): warning C4005: “INT_MAX”: 宏重定义
+                 g:\vs\vs2013\vc\include\limits.h(40) : 参见“INT_MAX”的前一个定义
+         正在生成代码...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(G:\vs\地铁\Project1\Project1\..\Debug\.exe) does not match the Linker's OutputFile property value (G:\vs\地铁\Project1\Project1\Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(Project1) does not match the Linker's OutputFile property value (Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         G:\vs\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Debug\Project1.lib" /MACHINE:X86 .\Debug\Project1.tlog\Subway.obj
+         .\Debug\Project1.tlog\test.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“.\Debug”
+     1>已完成生成项目“G:\vs\地铁\Project1\Project1\Project1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.97
