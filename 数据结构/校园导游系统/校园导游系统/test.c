@@ -200,9 +200,7 @@ void shortest(GraphType *G, int P[][MAX], int D[][MAX]) //最短路径
 {
 	int m, n;
 	printf("您希望查询哪两点?\n");
-	scanf("%d", &m);
-	printf("与\n");
-	scanf("%d", &n);
+	scanf("%d%d", &m, &n);
 	fflush(stdin);
 	if (m<n)
 	{
